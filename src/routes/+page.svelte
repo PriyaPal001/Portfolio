@@ -1,6 +1,7 @@
 <script>
 	import Skills from '$lib/components/skills.svelte';
     import Prosec from '$lib/components/projects.svelte';
+    import Dashboard from '$lib/components/dashboard.svelte';
     
 	let navs = [
 		{
@@ -138,6 +139,7 @@
         </ul> -->
     </nav>
     <main>
+        <Dashboard />
         <Skills/>
         <Prosec/>
     </main>
