@@ -2,6 +2,7 @@
 	import Skills from '$lib/components/skills.svelte';
     import Prosec from '$lib/components/projects.svelte';
     import Dashboard from '$lib/components/dashboard.svelte';
+    import Contact from '$lib/components/contact.svelte';
     
 	let navs = [
 		{
@@ -142,6 +143,7 @@
         <Dashboard />
         <Skills/>
         <Prosec/>
+        <Contact/>
     </main>
     <footer>
 
