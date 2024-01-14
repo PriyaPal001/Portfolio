@@ -1,6 +1,7 @@
 <script>
-	import iconn from '$lib/images/p1.png';
+	import Skills from '$lib/components/skills.svelte';
     import Prosec from '$lib/components/projects.svelte';
+    
 	let navs = [
 		{
 			name: 'Dashboard',
@@ -137,6 +138,7 @@
         </ul> -->
     </nav>
     <main>
+        <Skills/>
         <Prosec/>
     </main>
     <footer>
