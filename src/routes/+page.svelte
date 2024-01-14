@@ -1,5 +1,6 @@
 <script>
 	import iconn from '$lib/images/p1.png';
+    import Prosec from '$lib/components/projects.svelte';
 	let navs = [
 		{
 			name: 'Dashboard',
@@ -85,9 +86,12 @@
                             style="height:40px;width:40px;"
                         >
                           </div> -->
-                    <div class="flex h-8 w-12 m-2 p-0 ">
-                        <div class="border-white border-2 rounded-full flex p-0 m-0">
-                            <img src={iconn} alt="" />
+                    <div class="flex h-8 w-12 m-0 p-0 ">
+                        <div class="border-white  flex px-2 mx-0">
+                            <!-- <img src={iconn} alt="" /> -->
+                            <span class="logo text-white">P</span>
+                            <span>"  "</span>
+                            <span class="logo text-white">P</span>
                             <!-- <img src={iconn} alt="" /> -->
                         </div>
                     </div>
@@ -133,9 +137,19 @@
         </ul> -->
     </nav>
     <main>
-
+        <Prosec/>
     </main>
     <footer>
 
     </footer>
 </div>
+
+
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+:global(.logo) {
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+}
+</style>
