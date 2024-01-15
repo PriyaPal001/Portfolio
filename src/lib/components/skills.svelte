@@ -1,40 +1,69 @@
 <script>
+    import svelte from '$lib/images/skills/svelte.svg'
+    import tw from '$lib/images/skills/tw.svg'
+    import supa from '$lib/images/skills/supa.svg'
+    import sass from '$lib/images/skills/sass.svg'
+    import react from '$lib/images/skills/react.svg'
+    import node from '$lib/images/skills/node.svg'
+    import mongo from '$lib/images/skills/mongo.svg'
+    import js from '$lib/images/skills/js.svg'
+    import html from '$lib/images/skills/html.svg'
+    import git from '$lib/images/skills/git.svg'
+    import github from '$lib/images/skills/github.svg'
+    import express from '$lib/images/skills/express.svg'
+    import css from '$lib/images/skills/css.svg'
 	let poppy = [
 		{
-			skills: 'SVELTE'
+			skills: 'SVELTE',
+            icon: svelte
 		},
         {
-            skills: 'TAILWINDCSS'
+            skills: 'TAILWINDCSS',
+            icon: tw
         },
         {
-            skills:'SUPABASE'
+            skills:'SUPABASE',
+            icon: supa
         },
         {
-            skills: 'REACT'
+            skills: 'REACT',
+            icon: react
         },
         {
-            skills: 'JAVASCRIPT'
+            skills: 'JAVASCRIPT',
+            icon: js
         },
         {
-            skills: 'HTML'
+            skills: 'HTML',
+            icon: html
         },
         {
-            skills: 'CSS'
+            skills: 'CSS',
+            icon: css
         },
         {
-            skills: 'NODEJS'
+            skills: 'SASS',
+            icon: sass
         },
         {
-            skills: 'EXPRESS'
+            skills: 'NODEJS',
+            icon: node
         },
         {
-            skills: 'MONGODB'
+            skills: 'EXPRESS',
+            icon: express
         },
         {
-            skills: 'GIT'
+            skills: 'MONGODB',
+            icon: mongo
         },
         {
-            skills: 'GITHUB'
+            skills: 'GIT',
+            icon: git
+        },
+        {
+            skills: 'GITHUB',
+            icon: github
         },
         
 
@@ -54,7 +83,8 @@
 
 		<div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-5">
 			{#each poppy as i}
-				<a href="#">
+            <a href="#" class="flex ">
+                    <img src={i.icon} alt="" class="mx-2 h-8 w-8 flex items-center justify-center">
 					<h2 class="mt-0 text-xl font-normal hover:text-white hover:underline hover:underline-offset-8 text-white">{i.skills}</h2>
 				</a>
 			{/each}

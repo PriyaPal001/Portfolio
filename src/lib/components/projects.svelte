@@ -1,22 +1,23 @@
 <script>
+    import onMount from "svelte";
     let poppy=[
         {   
             icon:"D",
             title:"Dream Dress",
             description:"A e-commerce website for a fashion designer to showcase her designs and also to rent the products. The website is built with Svete and Tailwindcss.",
-            link:""
+            link:"https://dream-dress.vercel.app"
         },
         {
             icon:"B",
             title:"BlogVlog",
             description:"This is a blog website built with svelte and tailwindcss. It is a blog website that allows users to create and read blogs.",
-            link:""
+            link:"https://blog-vlog.vercel.app"
         },
         {
             icon:"T",
             title:"Todo List",
-            description:"React todo list app with local storage. This is a todo list app built with react and tailwindcss. It allows users to create, read, update and delete todos.",
-            link:"todo-application-weld.vercel.app"
+            description:"Svelte todo list app with local storage. This is a todo list app built with svelte and tailwindcss. It allows users to create, read, update and delete todos.",
+            link:"https://priyapal001.github.io/Creative-Todo/"
         },
         {
             icon:"G",
@@ -43,7 +44,7 @@
         <h2 class="text-3xl font-bold sm:text-4xl">Projects</h2>
       </div>
   
-      <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 " >
         {#each poppy as i}
         <a
         class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-white/10 hover:shadow-white/10"
