@@ -9,8 +9,8 @@
 	
 </script>
 
-<div class="bg-black h-screen">
-    <Navbar/>
+<div class="bg-black ">
+   
     <main>
         <Dashboard />
         <Skills/>
@@ -21,13 +21,3 @@
         <Footer/>
     </footer>
 </div>
-
-
-<style>
-    @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-
-:global(.logo) {
-  font-family: "Great Vibes", cursive;
-  font-size: 2rem;
-}
-</style>

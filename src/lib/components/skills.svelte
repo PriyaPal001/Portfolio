@@ -41,7 +41,7 @@
 	];
 </script>
 
-<section class="bg-black text-white">
+<section class="bg-black text-white" id="skills">
 	<div class="mx-auto max-w-screen-lg px-2 py-8 sm:px-4 sm:py-8 lg:px-4 lg:py-8">
 		<!-- <span class="flex items-center">
             <span class="pr-2 text-3xl font-bold">Lorem, ipsum dolor</span>

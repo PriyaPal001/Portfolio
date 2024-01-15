@@ -37,7 +37,7 @@
     ]
 </script>
 
-<section class="bg-black text-white">
+<section class="bg-black text-white " id="projects">
     <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
       <div class="mx-auto max-w-lg text-center">
         <h2 class="text-3xl font-bold sm:text-4xl">Projects</h2>
