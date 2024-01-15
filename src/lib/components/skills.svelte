@@ -70,18 +70,18 @@
 	];
 </script>
 
-<section class="bg-black text-white" id="skills">
-	<div class="mx-auto max-w-screen-lg px-2 py-8 sm:px-4 sm:py-8 lg:px-4 lg:py-8">
-		<!-- <span class="flex items-center">
-            <span class="pr-2 text-3xl font-bold">Lorem, ipsum dolor</span>
-            <span class="h-px flex-1 bg-white"></span>
-          </span> -->
+<section class="bg-black text-slate-300" id="skills">
+	<div class=" w-full px-2 py-8 sm:px-4 sm:py-8 lg:px-32 lg:py-8">
+		<span class="flex items-center">
+            <span class="pr-2 text-5xl font-bold">Skills</span>
+            <span class="h-px mt-4 flex-1 bg-slate-500"></span>
+          </span>
 
-          <div class="mx-auto max-w-lg text-center">
+          <!-- <div class="mx-auto max-w-lg text-center">
             <h2 class="text-3xl font-bold sm:text-4xl">Skills</h2>
-          </div>
+          </div> -->
 
-		<div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-5">
+		<div class="mt-20 flex flex-wrap place-items-center gap-x-10 gap-y-10">
 			{#each poppy as i}
             <a href="#" class="flex ">
                     <img src={i.icon} alt="" class="mx-2 h-8 w-8 flex items-center justify-center">
@@ -91,3 +91,5 @@
 		</div>
 	</div>
 </section>
+
+<!-- grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-5 -->

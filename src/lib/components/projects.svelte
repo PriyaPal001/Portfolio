@@ -1,5 +1,12 @@
 <script>
-    import onMount from "svelte";
+    
+  import AOS from "aos";
+  import "aos/dist/aos.css"; // You can also use <link> for styles
+  import { onMount } from "svelte";
+  // ..
+  onMount(() => {
+    AOS.init();
+  });
     let poppy=[
         {   
             icon:"D",
@@ -40,15 +47,20 @@
 
 <section class="bg-black text-white " id="projects">
     <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-      <div class="mx-auto max-w-lg text-center">
+      <span class="flex items-center">
+        <span class="pr-2 text-5xl font-bold">Projects</span>
+        <span class="h-px mt-4 flex-1 bg-slate-500"></span>
+      </span>
+      <!-- <div class="mx-auto max-w-lg text-center">
         <h2 class="text-3xl font-bold sm:text-4xl">Projects</h2>
-      </div>
+      </div> -->
   
-      <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 " >
-        {#each poppy as i}
+      <div class="mt-20 grid grid-cols-1 gap-8  md:grid-cols-2 lg:grid-cols-3 " >
+        {#each poppy as i,index}
         <a
         class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-white/10 hover:shadow-white/10"
         href="{i.link}"
+        data-aos="fade-up" data-aos-delay={(index+1)*150} data-aos-duration="800"
         >
         <!--Add in the class above hover:border-pink-500/10 hover:shadow-pink-500/10  -->
         <!-- <svg
