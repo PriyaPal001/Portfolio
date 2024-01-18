@@ -16,6 +16,22 @@
                 love to build websites and web applications. I am a self taught
                 programmer. I am currently learning Svelte-kit. 
 			</p>
+			<!-- <p class=" text-white sm:text-lg flex mb-3">
+				Hey, I am Priya Pal, a fanatical open sourceror.
+			</p>
+				<p class=" text-white sm:text-lg flex mb-3">	
+				Working at Svelte-kit.
+				
+				</p>
+				<p class=" text-white sm:text-lg flex">
+
+					Dreaming up ideas and making them come true is where my passion lies. You can find my full projects list here. I also do some generative-art, compform, interactivity experiments on 100.antfu.me.
+				</p>
+				<p class=" text-white sm:text-lg flex">
+
+					Outside of programming, I enjoy doing photography and traveling. Some of my photos can be found on Instagram. If you happen to be in the same city I live (currently in Paris), maybe we can hang out and take some photos or code together.
+				</p>
+			 -->
 
 			<div class="mt-8 flex flex-wrap gap-4 text-center">
 				<a
@@ -25,6 +41,15 @@
 					Resume
 				</a>
 			</div>
+		</div>
+	</div>
+	<div>
+		<div>
+			<p>2</p>
+			<p>years experience</p>
+		</div>
+		<div>
+			<p></p>
 		</div>
 	</div>
 </section>
